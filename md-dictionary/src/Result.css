@@ -3,5 +3,6 @@
   font-weight: 600;
   font-size: 36px;
   line-height: 43px;
-  color: #000000;
+  text-transform: capitalize;
+  color: #171539;
 }
