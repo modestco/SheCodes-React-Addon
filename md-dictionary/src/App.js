@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
@@ -7,23 +7,23 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
-            <img src={logo} className="logo" alt="SheCodes Logo" />
+          <a href="https://www.jenluchka.com/" target="_blank" rel="noreferrer">
+            <img src={logo} className="logo" alt="modest design Logo" />
           </a>
         </header>
-        <Dictionary defaultKeyword="sunset" />
+        <Dictionary defaultKeyword="swimming" />
         <footer>
-          This project was coded by{" "}
+          This project was proudly coded by{" "}
           <a
-            href="https://www.shecodes.io/"
+            href="https://www.jenluchka.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            SheCodes
+            Jen Luchka
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/shecodesio/dictionary"
+            href="https://github.com/modestco/shecodes-react-addon"
             target="_blank"
             rel="noopener noreferrer"
           >

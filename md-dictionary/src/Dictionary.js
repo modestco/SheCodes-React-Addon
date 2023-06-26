@@ -51,7 +51,7 @@ export default function Dictionary(props) {
             <label>What word would you like to search?</label>
             <input
               type="search"
-              placeholder="Search for a word"
+              placeholder="Enter criteria"
               defaultValue={props.defaultKeyword}
               autoFocus={true}
               className="form-control search-input"
